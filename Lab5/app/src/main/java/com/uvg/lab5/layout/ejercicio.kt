@@ -162,7 +162,7 @@ fun Direccion(modifier: Modifier = Modifier) {
                 Button(onClick = {
                     Toast.makeText(
                     context,
-                    "Iniciar",
+                    "Brandon Werner Rivera Cabrera",
                     Toast.LENGTH_LONG
                 ).show()
                                  },
@@ -171,7 +171,7 @@ fun Direccion(modifier: Modifier = Modifier) {
                     modifier = Modifier
                         .weight(0.4f)
                     ) {
-                    Text("Brandon Werner Rivera Cabrera", color = Color.White)
+                    Text("Iniciar", color = Color.White)
                 }
                 Spacer(modifier = Modifier.weight(0.1f))
                 OutlinedButton(onClick = { Toast.makeText(
